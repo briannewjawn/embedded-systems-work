@@ -1,39 +1,7 @@
 ***********************************************************************
 *
-* Title:          SCI Serial Port and 7-segment Display at PORTB
-*
-* Objective:      CMPEN 472 Homework 7, in-class-room demonstration
-*                 program
-*
-* Revision:       V3.2  for CodeWarrior 5.2 Debugger Simulation
-*
-* Date:          Oct. 4 2021
-*
-* Programmer:     Brian Nguyen
-*
-* Company:        The Pennsylvania State University
-*                 Department of Computer Science and Engineering
-*
-* Program:        Simple SCI Serial Port I/O and Demonstration
-*                 Typewriter program and 7-Segment display, at PORTB
-*                
-*
-* Algorithm:      calculator
-*
-* Register use:  A: Serial port data
-*                 X,Y: Delay loop counters
-*
-* Memory use:     RAM Locations from $3000 for data,
-*                 RAM Locations from $3100 for program
-*
-* Output:        
-*                 PORTB bit 7 to bit 4, 7-segment MSB
-*                 PORTB bit 3 to bit 0, 7-segment LSB
-*
-* Observation:    This is a typewriter program that displays ASCII
-*                 data on PORTB - 7-segment displays.
-*
-***********************************************************************
+* Title:          Memory editor and viewer
+
 * Parameter Declearation Section
 *
 * Export Symbols
